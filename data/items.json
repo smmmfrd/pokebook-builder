@@ -1,0 +1,1416 @@
+[
+  {
+    "id": 2126,
+    "name": "Cheri Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from paralysis on its own in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png"
+  },
+  {
+    "id": 2127,
+    "name": "Chesto Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from sleep on its own in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png"
+  },
+  {
+    "id": 2128,
+    "name": "Pecha Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from poisoning on its own in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png"
+  },
+  {
+    "id": 2129,
+    "name": "Rawst Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from a burn on its own in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png"
+  },
+  {
+    "id": 2130,
+    "name": "Aspear Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from being frozen on its own in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png"
+  },
+  {
+    "id": 2131,
+    "name": "Leppa Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can restore 10 PP to a depleted move during battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png"
+  },
+  {
+    "id": 2132,
+    "name": "Oran Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can restore its own HP by 10 points during battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png"
+  },
+  {
+    "id": 2133,
+    "name": "Persim Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from confusion on its own in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png"
+  },
+  {
+    "id": 2134,
+    "name": "Lum Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from any status condition during battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png"
+  },
+  {
+    "id": 2135,
+    "name": "Sitrus Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can restore its own HP by a small amount during battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png"
+  },
+  {
+    "id": 2136,
+    "name": "Figy Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/figy-berry.png"
+  },
+  {
+    "id": 2137,
+    "name": "Wiki Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wiki-berry.png"
+  },
+  {
+    "id": 2138,
+    "name": "Mago Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mago-berry.png"
+  },
+  {
+    "id": 2139,
+    "name": "Aguav Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aguav-berry.png"
+  },
+  {
+    "id": 2140,
+    "name": "Iapapa Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iapapa-berry.png"
+  },
+  {
+    "id": 2141,
+    "name": "Razz Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Coolness. Its red flesh is spicy when eaten.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razz-berry.png"
+  },
+  {
+    "id": 2142,
+    "name": "Bluk Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Beauty. Its blue flesh is dry when eaten.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bluk-berry.png"
+  },
+  {
+    "id": 2143,
+    "name": "Nanab Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Cuteness. Its pink flesh is sweet when eaten.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nanab-berry.png"
+  },
+  {
+    "id": 2144,
+    "name": "Wepear Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Cleverness. Its green flesh is bitter when eaten.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wepear-berry.png"
+  },
+  {
+    "id": 2145,
+    "name": "Pinap Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Toughness. Its yellow flesh is sour when eaten.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pinap-berry.png"
+  },
+  {
+    "id": 2146,
+    "name": "Pomeg Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its HP base points.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pomeg-berry.png"
+  },
+  {
+    "id": 2147,
+    "name": "Kelpsy Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Attack base points.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kelpsy-berry.png"
+  },
+  {
+    "id": 2148,
+    "name": "Qualot Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Defense base points.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/qualot-berry.png"
+  },
+  {
+    "id": 2149,
+    "name": "Hondew Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Sp. Atk base points.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hondew-berry.png"
+  },
+  {
+    "id": 2150,
+    "name": "Grepa Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Sp. Def base points.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grepa-berry.png"
+  },
+  {
+    "id": 2151,
+    "name": "Tamato Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Speed base points.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tamato-berry.png"
+  },
+  {
+    "id": 2152,
+    "name": "Cornn Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Beauty, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cornn-berry.png"
+  },
+  {
+    "id": 2153,
+    "name": "Magost Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Cuteness, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magost-berry.png"
+  },
+  {
+    "id": 2154,
+    "name": "Rabuta Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Cleverness, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rabuta-berry.png"
+  },
+  {
+    "id": 2155,
+    "name": "Nomel Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Toughness, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nomel-berry.png"
+  },
+  {
+    "id": 2156,
+    "name": "Spelon Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Cuteness, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spelon-berry.png"
+  },
+  {
+    "id": 2157,
+    "name": "Pamtre Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Beauty, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pamtre-berry.png"
+  },
+  {
+    "id": 2158,
+    "name": "Watmel Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Cleverness, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/watmel-berry.png"
+  },
+  {
+    "id": 2159,
+    "name": "Durin Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Cleverness, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/durin-berry.png"
+  },
+  {
+    "id": 2160,
+    "name": "Belue Berry",
+    "itemType": "Berries",
+    "effect": "Used to make Pokéblocks that will enhance your Beauty, this Berry is rare in other regions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/belue-berry.png"
+  },
+  {
+    "id": 2161,
+    "name": "Occa Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fire-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png"
+  },
+  {
+    "id": 2162,
+    "name": "Passho Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Water-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png"
+  },
+  {
+    "id": 2163,
+    "name": "Wacan Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Electric-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png"
+  },
+  {
+    "id": 2164,
+    "name": "Rindo Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Grass-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png"
+  },
+  {
+    "id": 2165,
+    "name": "Yache Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ice-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png"
+  },
+  {
+    "id": 2166,
+    "name": "Chople Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fighting-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png"
+  },
+  {
+    "id": 2167,
+    "name": "Kebia Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Poison-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kebia-berry.png"
+  },
+  {
+    "id": 2168,
+    "name": "Shuca Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ground-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png"
+  },
+  {
+    "id": 2169,
+    "name": "Coba Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Flying-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coba-berry.png"
+  },
+  {
+    "id": 2170,
+    "name": "Payapa Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Psychic-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/payapa-berry.png"
+  },
+  {
+    "id": 2171,
+    "name": "Tanga Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Bug-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png"
+  },
+  {
+    "id": 2172,
+    "name": "Charti Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Rock-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png"
+  },
+  {
+    "id": 2173,
+    "name": "Kasib Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ghost-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png"
+  },
+  {
+    "id": 2174,
+    "name": "Haban Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Dragon-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/haban-berry.png"
+  },
+  {
+    "id": 2175,
+    "name": "Colbur Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Dark-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png"
+  },
+  {
+    "id": 2176,
+    "name": "Babiri Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Steel-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png"
+  },
+  {
+    "id": 2177,
+    "name": "Chilan Berry",
+    "itemType": "Berries",
+    "effect": "If held by a Pokémon, this Berry will lessen the damage taken from one Normal-type attack.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png"
+  },
+  {
+    "id": 2178,
+    "name": "Liechi Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Attack stat will increase when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/liechi-berry.png"
+  },
+  {
+    "id": 2179,
+    "name": "Ganlon Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Defense stat will increase when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ganlon-berry.png"
+  },
+  {
+    "id": 2180,
+    "name": "Salac Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Speed stat will increase when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salac-berry.png"
+  },
+  {
+    "id": 2181,
+    "name": "Petaya Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Sp. Atk stat will increase when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/petaya-berry.png"
+  },
+  {
+    "id": 2182,
+    "name": "Apicot Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Sp. Def stat will increase when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/apicot-berry.png"
+  },
+  {
+    "id": 2183,
+    "name": "Lansat Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its critical-hit ratio will increase when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lansat-berry.png"
+  },
+  {
+    "id": 2184,
+    "name": "Starf Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, one of its stats will sharply increase when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/starf-berry.png"
+  },
+  {
+    "id": 2185,
+    "name": "Enigma Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, being hit by a supereffective attack will restore its HP.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/enigma-berry.png"
+  },
+  {
+    "id": 2186,
+    "name": "Micle Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its accuracy will increase just once when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/micle-berry.png"
+  },
+  {
+    "id": 2187,
+    "name": "Custap Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it will be able to move first just once when it’s in a pinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/custap-berry.png"
+  },
+  {
+    "id": 2188,
+    "name": "Jaboca Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a physical attack hits the Pokémon holding it, the attacker will also be hurt.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jaboca-berry.png"
+  },
+  {
+    "id": 2189,
+    "name": "Rowap Berry",
+    "itemType": "Berries",
+    "effect": "A Berry to be consumed by Pokémon. If a special attack hits the Pokémon holding it, the attacker will also be hurt.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rowap-berry.png"
+  },
+  {
+    "id": 2190,
+    "name": "Bright Powder",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opposing Pokémon’s accuracy.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bright-powder.png"
+  },
+  {
+    "id": 2191,
+    "name": "White Herb",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It will restore any lowered stat in battle. It can be used only once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png"
+  },
+  {
+    "id": 2194,
+    "name": "Quick Claw",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. This light, sharp claw lets the bearer move first occasionally.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png"
+  },
+  {
+    "id": 2196,
+    "name": "Mental Herb",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. The holder shakes off move-binding effects to move freely. It can be used only once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png"
+  },
+  {
+    "id": 2198,
+    "name": "Kings Rock",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. When the holder successfully inflicts damage, the target may also flinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png"
+  },
+  {
+    "id": 2205,
+    "name": "Smoke Ball",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon encounter without fail.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-ball.png"
+  },
+  {
+    "id": 2207,
+    "name": "Focus Band",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-band.png"
+  },
+  {
+    "id": 2209,
+    "name": "Scope Lens",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It’s a lens for scoping out weak points. It boosts the holder’s critical-hit ratio.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png"
+  },
+  {
+    "id": 2211,
+    "name": "Leftovers",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. The holder’s HP is slowly but steadily restored throughout every battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png"
+  },
+  {
+    "id": 2230,
+    "name": "Shell Bell",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. The holder restores a little HP every time it inflicts damage on others.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shell-bell.png"
+  },
+  {
+    "id": 2232,
+    "name": "Lax Incense",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. The beguiling aroma of this incense may cause attacks to miss its holder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lax-incense.png"
+  },
+  {
+    "id": 2242,
+    "name": "Wide Lens",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It’s a magnifying lens that slightly boosts the accuracy of moves.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png"
+  },
+  {
+    "id": 2243,
+    "name": "Muscle Band",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of physical moves.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/muscle-band.png"
+  },
+  {
+    "id": 2244,
+    "name": "Wise Glasses",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of special moves.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wise-glasses.png"
+  },
+  {
+    "id": 2245,
+    "name": "Expert Belt",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It’s a well-worn belt that slightly boosts the power of supereffective moves.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png"
+  },
+  {
+    "id": 2246,
+    "name": "Light Clay",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png"
+  },
+  {
+    "id": 2247,
+    "name": "Life Orb",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts the power of moves but at the cost of some HP on each hit.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png"
+  },
+  {
+    "id": 2248,
+    "name": "Power Herb",
+    "itemType": "HeldItems",
+    "effect": "A single-use item to be held by a Pokémon. It allows the holder to immediately use a move that normally requires a turn to charge.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-herb.png"
+  },
+  {
+    "id": 2252,
+    "name": "Focus Sash",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. If the holder has full HP, it will endure a potential KO attack with 1 HP. The item then disappears.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png"
+  },
+  {
+    "id": 2253,
+    "name": "Zoom Lens",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. If the holder moves after its target moves, its accuracy will be boosted.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zoom-lens.png"
+  },
+  {
+    "id": 2254,
+    "name": "Metronome",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts moves used consecutively but only until a different move is used.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metronome.png"
+  },
+  {
+    "id": 2257,
+    "name": "Destiny Knot",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. If the holder becomes infatuated, the opposing Pokémon will be, too.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/destiny-knot.png"
+  },
+  {
+    "id": 2258,
+    "name": "Black Sludge",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It gradually restores HP to Poison-type Pokémon. It damages any other type.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png"
+  },
+  {
+    "id": 2259,
+    "name": "Icy Rock",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It extends the duration of the move Hail when used by the holder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/icy-rock.png"
+  },
+  {
+    "id": 2260,
+    "name": "Smooth Rock",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It extends the duration of the move Sandstorm when used by the holder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smooth-rock.png"
+  },
+  {
+    "id": 2261,
+    "name": "Heat Rock",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It extends the duration of the move Sunny Day when used by the holder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heat-rock.png"
+  },
+  {
+    "id": 2262,
+    "name": "Damp Rock",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It extends the duration of the move Rain Dance when used by the holder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/damp-rock.png"
+  },
+  {
+    "id": 2263,
+    "name": "Grip Claw",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It extends the duration of multi-turn attacks, such as Bind and Wrap.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grip-claw.png"
+  },
+  {
+    "id": 2272,
+    "name": "Shed Shell",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. This discarded carapace enables the holder to switch out of battle without fail.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png"
+  },
+  {
+    "id": 2273,
+    "name": "Big Root",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts the amount of HP the holder restores from HP-stealing moves.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png"
+  },
+  {
+    "id": 2303,
+    "name": "Razor Claw",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. This sharply hooked claw increases the holder’s critical-hit ratio.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-claw.png"
+  },
+  {
+    "id": 2304,
+    "name": "Razor Fang",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. When the holder successfully inflicts damage, the target may also flinch.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-fang.png"
+  },
+  {
+    "id": 2581,
+    "name": "Eviolite",
+    "itemType": "HeldItems",
+    "effect": "A mysterious evolutionary lump. When held by a Pokémon that can still evolve, it raises both Defense and Sp. Def.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png"
+  },
+  {
+    "id": 2582,
+    "name": "Float Stone",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. This very light stone reduces the weight of a Pokémon when held.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/float-stone.png"
+  },
+  {
+    "id": 2583,
+    "name": "Rocky Helmet",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. If the holder is hit, the attacker will also be damaged upon contact.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rocky-helmet.png"
+  },
+  {
+    "id": 2584,
+    "name": "Air Balloon",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. The holder will float in the air until hit. Once the holder is hit, this item will burst.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png"
+  },
+  {
+    "id": 2585,
+    "name": "Red Card",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. When the holder is hit by an attack, the attacker is removed from battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-card.png"
+  },
+  {
+    "id": 2586,
+    "name": "Ring Target",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. Moves that normally have no effect will land on a Pokémon holding it.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ring-target.png"
+  },
+  {
+    "id": 2587,
+    "name": "Binding Band",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It’s a band that increases the power of binding moves used by the holder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/binding-band.png"
+  },
+  {
+    "id": 2588,
+    "name": "Absorb Bulb",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Sp. Atk if the holder is hit with a Water-type attack. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absorb-bulb.png"
+  },
+  {
+    "id": 2589,
+    "name": "Cell Battery",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Attack if the holder is hit with an Electric-type attack. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cell-battery.png"
+  },
+  {
+    "id": 2590,
+    "name": "Eject Button",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. If the holder is hit by an attack, it will be switched out of battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eject-button.png"
+  },
+  {
+    "id": 2616,
+    "name": "Pass Orb",
+    "itemType": "HeldItems",
+    "effect": "A mysterious orb containing the power of the Unova region, to be used when generating Pass Power.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pass-orb.png"
+  },
+  {
+    "id": 2682,
+    "name": "Weakness Policy",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. Attack and Sp. Atk sharply increase if the holder is hit with a move it’s weak to.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/weakness-policy.png"
+  },
+  {
+    "id": 2683,
+    "name": "Assault Vest",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/assault-vest.png"
+  },
+  {
+    "id": 2688,
+    "name": "Luminous Moss",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Sp. Def if the holder is hit with a Water-type attack. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luminous-moss.png"
+  },
+  {
+    "id": 2689,
+    "name": "Snowball",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Attack if the holder is hit with an Ice-type attack. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/snowball.png"
+  },
+  {
+    "id": 2690,
+    "name": "Safety Goggles",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. These goggles protect the holder from both weather-related damage and powder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safety-goggles.png"
+  },
+  {
+    "id": 2883,
+    "name": "Adrenaline Orb",
+    "itemType": "HeldItems",
+    "effect": "If held by a Pokémon, it boosts Speed when intimidated.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/adrenaline-orb.png"
+  },
+  {
+    "id": 2896,
+    "name": "Terrain Extender",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder’s move or Ability.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/terrain-extender.png"
+  },
+  {
+    "id": 2897,
+    "name": "Protective Pads",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. These pads protect the holder from effects caused by making direct contact with the target.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protective-pads.png"
+  },
+  {
+    "id": 2898,
+    "name": "Electric Seed",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electric-seed.png"
+  },
+  {
+    "id": 2899,
+    "name": "Psychic Seed",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psychic-seed.png"
+  },
+  {
+    "id": 2900,
+    "name": "Misty Seed",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/misty-seed.png"
+  },
+  {
+    "id": 2901,
+    "name": "Grassy Seed",
+    "itemType": "HeldItems",
+    "effect": "An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grassy-seed.png"
+  },
+  {
+    "id": 2197,
+    "name": "Choice Band",
+    "itemType": "Choice",
+    "effect": "An item to be held by a Pokémon. This curious headband boosts Attack but only allows the use of one move.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png"
+  },
+  {
+    "id": 2264,
+    "name": "Choice Scarf",
+    "itemType": "Choice",
+    "effect": "An item to be held by a Pokémon. This curious scarf boosts Speed but only allows the use of one move.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png"
+  },
+  {
+    "id": 2274,
+    "name": "Choice Specs",
+    "itemType": "Choice",
+    "effect": "An item to be held by a Pokémon. These curious glasses boost Sp. Atk but only allow the use of one move.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-specs.png"
+  },
+  {
+    "id": 2249,
+    "name": "Toxic Orb",
+    "itemType": "BadHeldItems",
+    "effect": "An item to be held by a Pokémon. It’s a bizarre orb that will badly poison the holder during battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png"
+  },
+  {
+    "id": 2250,
+    "name": "Flame Orb",
+    "itemType": "BadHeldItems",
+    "effect": "An item to be held by a Pokémon. It’s a bizarre orb that will afflict the holder with a burn during battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png"
+  },
+  {
+    "id": 2255,
+    "name": "Iron Ball",
+    "itemType": "BadHeldItems",
+    "effect": "An item to be held by a Pokémon. It lowers Speed and allows Ground-type moves to hit Flying types and holders that are levitating.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron-ball.png"
+  },
+  {
+    "id": 2256,
+    "name": "Lagging Tail",
+    "itemType": "BadHeldItems",
+    "effect": "An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lagging-tail.png"
+  },
+  {
+    "id": 2265,
+    "name": "Sticky Barb",
+    "itemType": "BadHeldItems",
+    "effect": "An item to be held by a Pokémon. It damages the holder every turn and may latch on to Pokémon that touch the holder.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png"
+  },
+  {
+    "id": 2293,
+    "name": "Full Incense",
+    "itemType": "BadHeldItems",
+    "effect": "An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-incense.png"
+  },
+  {
+    "id": 2017,
+    "name": "Potion",
+    "itemType": "Healing",
+    "effect": "A spray-type medicine for treating wounds. It can be used to restore 20 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/potion.png"
+  },
+  {
+    "id": 2023,
+    "name": "Full Restore",
+    "itemType": "Healing",
+    "effect": "A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-restore.png"
+  },
+  {
+    "id": 2024,
+    "name": "Max Potion",
+    "itemType": "Healing",
+    "effect": "A spray-type medicine for treating wounds. It can be used to completely restore the max HP of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-potion.png"
+  },
+  {
+    "id": 2025,
+    "name": "Hyper Potion",
+    "itemType": "Healing",
+    "effect": "A spray-type medicine for treating wounds. It can be used to restore 120 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hyper-potion.png"
+  },
+  {
+    "id": 2026,
+    "name": "Super Potion",
+    "itemType": "Healing",
+    "effect": "A spray-type medicine for treating wounds. It can be used to restore 60 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-potion.png"
+  },
+  {
+    "id": 2030,
+    "name": "Fresh Water",
+    "itemType": "Healing",
+    "effect": "Water with high mineral content. It can be used to restore 30 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fresh-water.png"
+  },
+  {
+    "id": 2031,
+    "name": "Soda Pop",
+    "itemType": "Healing",
+    "effect": "A highly carbonated soda drink. It can be used to restore 50 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soda-pop.png"
+  },
+  {
+    "id": 2032,
+    "name": "Lemonade",
+    "itemType": "Healing",
+    "effect": "A very sweet and refreshing drink. It can be used to restore 70 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lemonade.png"
+  },
+  {
+    "id": 2033,
+    "name": "Moomoo Milk",
+    "itemType": "Healing",
+    "effect": "A bottle of highly nutritious milk. It can be used to restore 100 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moomoo-milk.png"
+  },
+  {
+    "id": 2034,
+    "name": "Energy Powder",
+    "itemType": "Healing",
+    "effect": "A very bitter medicinal powder. It can be used to restore 60 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/energy-powder.png"
+  },
+  {
+    "id": 2035,
+    "name": "Energy Root",
+    "itemType": "Healing",
+    "effect": "An extremely bitter medicinal root. It can be used to restore 120 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/energy-root.png"
+  },
+  {
+    "id": 2043,
+    "name": "Berry Juice",
+    "itemType": "Healing",
+    "effect": "A 100 percent pure juice made of Berries. It can be used to restore 20 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png"
+  },
+  {
+    "id": 2567,
+    "name": "Sweet Heart",
+    "itemType": "Healing",
+    "effect": "A piece of cloyingly sweet chocolate. It can be used to restore 20 HP to a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sweet-heart.png"
+  },
+  {
+    "id": 2028,
+    "name": "Revive",
+    "itemType": "Revival",
+    "effect": "A medicine that can be used to revive a single Pokémon that has fainted. It also restores half of the Pokémon’s max HP.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revive.png"
+  },
+  {
+    "id": 2029,
+    "name": "Max Revive",
+    "itemType": "Revival",
+    "effect": "A medicine that can be used to revive a single Pokémon that has fainted. It also fully restores the Pokémon’s max HP.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-revive.png"
+  },
+  {
+    "id": 2037,
+    "name": "Revival Herb",
+    "itemType": "Revival",
+    "effect": "A terribly bitter medicinal herb. It revives a fainted Pokémon and fully restores its max HP.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revival-herb.png"
+  },
+  {
+    "id": 2044,
+    "name": "Sacred Ash",
+    "itemType": "Revival",
+    "effect": "This rare ash can revive all fainted Pokémon in a party. In doing so, it also fully restores their max HP.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sacred-ash.png"
+  },
+  {
+    "id": 2001,
+    "name": "Master Ball",
+    "itemType": "StandardBalls",
+    "effect": "The best Poké Ball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png"
+  },
+  {
+    "id": 2002,
+    "name": "Ultra Ball",
+    "itemType": "StandardBalls",
+    "effect": "An ultra-high-performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png"
+  },
+  {
+    "id": 2003,
+    "name": "Great Ball",
+    "itemType": "StandardBalls",
+    "effect": "A good, high-performance Poké Ball that provides a higher success rate for catching Pokémon than a standard Poké Ball.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png"
+  },
+  {
+    "id": 2004,
+    "name": "Poke Ball",
+    "itemType": "StandardBalls",
+    "effect": "A device for catching wild Pokémon. It’s thrown like a ball at a Pokémon, comfortably encapsulating its target.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
+  },
+  {
+    "id": 2005,
+    "name": "Safari Ball",
+    "itemType": "StandardBalls",
+    "effect": "A special Poké Ball that was used in the Safari Zone in the Kanto region and in the Great Marsh in the Sinnoh region.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png"
+  },
+  {
+    "id": 2456,
+    "name": "Park Ball",
+    "itemType": "StandardBalls",
+    "effect": "A special Poké Ball for the Pal Park.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/park-ball.png"
+  },
+  {
+    "id": 2457,
+    "name": "Sport Ball",
+    "itemType": "StandardBalls",
+    "effect": "A special Poké Ball that was used during the Bug-Catching Contest in the Johto region.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sport-ball.png"
+  },
+  {
+    "id": 2018,
+    "name": "Antidote",
+    "itemType": "StatusCures",
+    "effect": "A spray-type medicine for treating poisoning. It can be used to lift the effects of being poisoned from a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/antidote.png"
+  },
+  {
+    "id": 2019,
+    "name": "Burn Heal",
+    "itemType": "StatusCures",
+    "effect": "A spray-type medicine for treating burns. It can be used to heal a single Pokémon suffering from a burn.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/burn-heal.png"
+  },
+  {
+    "id": 2020,
+    "name": "Ice Heal",
+    "itemType": "StatusCures",
+    "effect": "A spray-type medicine for treating freezing. It can be used to thaw out a single Pokémon that has been frozen solid.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-heal.png"
+  },
+  {
+    "id": 2021,
+    "name": "Awakening",
+    "itemType": "StatusCures",
+    "effect": "A spray-type medicine to wake the sleeping. It can be used to rouse a single Pokémon from the clutches of sleep.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/awakening.png"
+  },
+  {
+    "id": 2022,
+    "name": "Paralyze Heal",
+    "itemType": "StatusCures",
+    "effect": "A spray-type medicine for treating paralysis. It can be used to free a single Pokémon that has been paralyzed.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/paralyze-heal.png"
+  },
+  {
+    "id": 2027,
+    "name": "Full Heal",
+    "itemType": "StatusCures",
+    "effect": "A spray-type medicine that is broadly effective. It can be used to heal all the status conditions of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-heal.png"
+  },
+  {
+    "id": 2036,
+    "name": "Heal Powder",
+    "itemType": "StatusCures",
+    "effect": "A very bitter medicinal powder. It can be used once to heal all the status conditions of a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heal-powder.png"
+  },
+  {
+    "id": 2042,
+    "name": "Lava Cookie",
+    "itemType": "StatusCures",
+    "effect": "Lavaridge Town’s local specialty. It can be used once to heal all the status conditions of a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lava-cookie.png"
+  },
+  {
+    "id": 2054,
+    "name": "Old Gateau",
+    "itemType": "StatusCures",
+    "effect": "The Old Chateau’s hidden specialty. It can be used once to heal all the status conditions of a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-gateau.png"
+  },
+  {
+    "id": 2632,
+    "name": "Casteliacone",
+    "itemType": "StatusCures",
+    "effect": "Castelia City’s specialty, soft-serve ice cream. It can be used once to heal all the status conditions of a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/casteliacone.png"
+  },
+  {
+    "id": 2728,
+    "name": "Lumiose Galette",
+    "itemType": "StatusCures",
+    "effect": "A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lumiose-galette.png"
+  },
+  {
+    "id": 2765,
+    "name": "Shalour Sable",
+    "itemType": "StatusCures",
+    "effect": "Shalour City’s famous shortbread. It can be used once to heal all the status conditions of a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shalour-sable.png"
+  },
+  {
+    "id": 2888,
+    "name": "Big Malasada",
+    "itemType": "StatusCures",
+    "effect": "The Alola region’s local specialty—fried bread. It can be used once to heal all the status conditions of a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-malasada.png"
+  },
+  {
+    "id": 2006,
+    "name": "Net Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that is more effective when attempting to catch Water- or Bug-type Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/net-ball.png"
+  },
+  {
+    "id": 2007,
+    "name": "Dive Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that works especially well when catching Pokémon that live underwater.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png"
+  },
+  {
+    "id": 2008,
+    "name": "Nest Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that becomes more effective the lower the level of the wild Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png"
+  },
+  {
+    "id": 2009,
+    "name": "Repeat Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that works especially well on a Pokémon species that has been caught before.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repeat-ball.png"
+  },
+  {
+    "id": 2010,
+    "name": "Timer Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that becomes progressively more effective at catching Pokémon the more turns that are taken in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/timer-ball.png"
+  },
+  {
+    "id": 2011,
+    "name": "Luxury Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A particularly comfortable Poké Ball that makes a wild Pokémon quickly grow friendlier after being caught.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luxury-ball.png"
+  },
+  {
+    "id": 2012,
+    "name": "Premier Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat rare Poké Ball that was made as a commemorative item used to celebrate an event of some sort.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png"
+  },
+  {
+    "id": 2013,
+    "name": "Dusk Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places such as caves.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png"
+  },
+  {
+    "id": 2014,
+    "name": "Heal Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A remedial Poké Ball that restores the HP of a Pokémon caught with it and eliminates any status conditions.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heal-ball.png"
+  },
+  {
+    "id": 2015,
+    "name": "Quick Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that has a more successful catch rate if used at the start of a wild encounter.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-ball.png"
+  },
+  {
+    "id": 2016,
+    "name": "Cherish Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A quite rare Poké Ball that has been crafted in order to commemorate a special occasion of some sort.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cherish-ball.png"
+  },
+  {
+    "id": 2617,
+    "name": "Dream Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon while they’re asleep.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dream-ball.png"
+  },
+  {
+    "id": 2887,
+    "name": "Beast Ball",
+    "itemType": "SpecialBalls",
+    "effect": "A somewhat different Poké Ball that has a low success rate for catching a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/beast-ball.png"
+  },
+  {
+    "id": 2193,
+    "name": "Exp Share",
+    "itemType": "Training",
+    "effect": "Turning on this special device will allow all the Pokémon on your team to receive Exp. Points from battles.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png"
+  },
+  {
+    "id": 2195,
+    "name": "Soothe Bell",
+    "itemType": "Training",
+    "effect": "An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soothe-bell.png"
+  },
+  {
+    "id": 2200,
+    "name": "Amulet Coin",
+    "itemType": "Training",
+    "effect": "An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/amulet-coin.png"
+  },
+  {
+    "id": 2201,
+    "name": "Cleanse Tag",
+    "itemType": "Training",
+    "effect": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cleanse-tag.png"
+  },
+  {
+    "id": 2206,
+    "name": "Everstone",
+    "itemType": "Training",
+    "effect": "An item to be held by a Pokémon. A Pokémon holding this peculiar stone is prevented from evolving.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/everstone.png"
+  },
+  {
+    "id": 2208,
+    "name": "Lucky Egg",
+    "itemType": "Training",
+    "effect": "An item to be held by a Pokémon. It’s an egg filled with happiness that earns the holder extra Exp. Points in battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png"
+  },
+  {
+    "id": 2296,
+    "name": "Luck Incense",
+    "itemType": "Training",
+    "effect": "An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luck-incense.png"
+  },
+  {
+    "id": 2297,
+    "name": "Pure Incense",
+    "itemType": "Training",
+    "effect": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pure-incense.png"
+  },
+  {
+    "id": 2045,
+    "name": "Hp Up",
+    "itemType": "Vitamins",
+    "effect": "A nutritious drink for Pokémon. When consumed, it raises the HP base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hp-up.png"
+  },
+  {
+    "id": 2046,
+    "name": "Protein",
+    "itemType": "Vitamins",
+    "effect": "A nutritious drink for Pokémon. When consumed, it raises the Attack base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protein.png"
+  },
+  {
+    "id": 2047,
+    "name": "Iron",
+    "itemType": "Vitamins",
+    "effect": "A nutritious drink for Pokémon. When consumed, it raises the Defense base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron.png"
+  },
+  {
+    "id": 2048,
+    "name": "Carbos",
+    "itemType": "Vitamins",
+    "effect": "A nutritious drink for Pokémon. When consumed, it raises the Speed base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/carbos.png"
+  },
+  {
+    "id": 2049,
+    "name": "Calcium",
+    "itemType": "Vitamins",
+    "effect": "A nutritious drink for Pokémon. When consumed, it raises the Sp. Atk base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/calcium.png"
+  },
+  {
+    "id": 2050,
+    "name": "Rare Candy",
+    "itemType": "Vitamins",
+    "effect": "A candy that is packed with energy. When consumed, it will instantly raise the level of a single Pokémon by one.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-candy.png"
+  },
+  {
+    "id": 2051,
+    "name": "Pp Up",
+    "itemType": "Vitamins",
+    "effect": "A medicine that slightly raises the max PP of a single selected move that has been learned by a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pp-up.png"
+  },
+  {
+    "id": 2052,
+    "name": "Zinc",
+    "itemType": "Vitamins",
+    "effect": "A nutritious drink for Pokémon. When consumed, it raises the Sp. Def base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zinc.png"
+  },
+  {
+    "id": 2053,
+    "name": "Pp Max",
+    "itemType": "Vitamins",
+    "effect": "A medicine that optimally raises the max PP of a single selected move that has been learned by a Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pp-max.png"
+  },
+  {
+    "id": 2606,
+    "name": "Health Wing",
+    "itemType": "Vitamins",
+    "effect": "An item for use on a Pokémon. It slightly increases the HP base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-wing.png"
+  },
+  {
+    "id": 2607,
+    "name": "Muscle Wing",
+    "itemType": "Vitamins",
+    "effect": "An item for use on a Pokémon. It slightly increases the Attack base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/muscle-wing.png"
+  },
+  {
+    "id": 2608,
+    "name": "Resist Wing",
+    "itemType": "Vitamins",
+    "effect": "An item for use on a Pokémon. It slightly increases the Defense base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/resist-wing.png"
+  },
+  {
+    "id": 2609,
+    "name": "Genius Wing",
+    "itemType": "Vitamins",
+    "effect": "An item for use on a Pokémon. It slightly increases the Sp. Atk base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/genius-wing.png"
+  },
+  {
+    "id": 2610,
+    "name": "Clever Wing",
+    "itemType": "Vitamins",
+    "effect": "An item for use on a Pokémon. It slightly increases the Sp. Def base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clever-wing.png"
+  },
+  {
+    "id": 2611,
+    "name": "Swift Wing",
+    "itemType": "Vitamins",
+    "effect": "An item for use on a Pokémon. It slightly increases the Speed base points of a single Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/swift-wing.png"
+  },
+  {
+    "id": 2685,
+    "name": "Ability Capsule",
+    "itemType": "Vitamins",
+    "effect": "A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ability-capsule.png"
+  }
+]
