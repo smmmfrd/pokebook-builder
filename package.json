@@ -1,0 +1,14 @@
+{
+  "name": "pokebook-builder",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^1.0.18"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "prisma": "^5.7.0"
+  }
+}
