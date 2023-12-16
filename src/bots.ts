@@ -1,4 +1,11 @@
-import { Pokemon } from "@prisma/client";
+import { Pokemon, PrismaClient } from "@prisma/client";
+import moment from "moment";
+
+type PostData = {
+  content: string;
+  createdAt: Date;
+  posterId: number;
+};
 
 const PUNCTUATION_MAP = {
   0: ".",
@@ -6,12 +13,36 @@ const PUNCTUATION_MAP = {
   2: "?",
 };
 
-export async function BotData() {
+export async function BotData(prisma: PrismaClient) {
   const bot = Bun.file("data/bots.json");
   const botText = await bot.text();
   const botData = (await JSON.parse(botText)) as Pokemon[];
   console.log(`${botData.length} Bots`);
-  console.log(randomPostContent(botData[0].name));
+
+  // Get a random bot pokemon and remove it from the array
+  const randBot = (): Pokemon => {
+    return botData.splice(Math.floor(Math.random() * botData.length), 1)[0];
+  };
+
+  // await prisma.post.createMany({ data: randomPosts(randBot) });
+  console.log(randomPosts(randBot));
+
+  console.log(`${botData.length} Bots`);
+}
+
+function randomPosts(randBot: () => Pokemon): PostData[] {
+  return Array.from({ length: 8 }, (_, i) => {
+    const poke = randBot();
+    const content = randomPostContent(poke.name);
+
+    return {
+      posterId: poke.id,
+      content,
+      createdAt: moment()
+        .subtract(7 - i, "hours")
+        .toDate(),
+    };
+  });
 }
 
 function randomPostContent(name: string): string {
@@ -44,7 +75,9 @@ function randomPostContent(name: string): string {
       }
     } else {
       // Always ending a sentence with the full name.
-      message += `${name}${randPunctuation()} `;
+      message += `${name}${randPunctuation()}${
+        i === messageLength - 1 ? "" : " "
+      }`;
       resetPuncTime();
     }
   }
