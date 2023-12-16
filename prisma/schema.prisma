@@ -77,39 +77,22 @@ model FriendRequest {
   @@index([receiverId])
 }
 
-enum ItemType {
-  Berries
-  HeldItems
-  Vitamins
-  SpecialBalls
-  Healing
-  StatusCures
-  Training
-  StandardBalls
-  BadHeldItems
-  Revival
-  Choice
-}
-
 model Item {
   id       Int      @id
   name     String
-  itemType ItemType
   effect   String   @db.Text
   sprite   String   @db.Text
-
-  reviews Review[]
+  itemType String
+  reviews  Review[]
 }
 
 model Review {
   id       String  @id @default(uuid())
   content  String  @db.Text
   positive Boolean
-
-  itemId Int
-  item   Item @relation(fields: [itemId], references: [id], onDelete: Cascade)
-
+  itemId   Int
   posterId Int
+  item     Item    @relation(fields: [itemId], references: [id], onDelete: Cascade)
   poster   Pokemon @relation(fields: [posterId], references: [id], onDelete: Cascade)
 
   @@index([itemId])
