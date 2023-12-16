@@ -23,8 +23,16 @@ const stalePosters = await prisma.pokemon.findMany({
     ],
   },
   select: {
-    user: { select: { pokemon: { select: { name: true } }, id: true } },
+    user: { select: { id: true } },
   },
 });
 
-console.log(stalePosters.map((poster) => poster.user?.pokemon?.name));
+const staleIds: string[] = stalePosters
+  .filter((poster): poster is { user: { id: string } } => poster.user != null)
+  .map(({ user }) => user.id);
+
+const deletedUsers = await prisma.user.deleteMany({
+  where: { id: { in: staleIds } },
+});
+
+console.log(`Found and removed ${deletedUsers.count} stale users.`);
