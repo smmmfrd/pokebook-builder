@@ -1,0 +1,19 @@
+name: Make Site Data on a Schedule
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+    - cron: "0 16 * * *"
+
+jobs:
+  my-job:
+    name: bot-data
+    runs-on: ubuntu-latest
+    steps:
+      # ...
+      - uses: actions/checkout@v3
+      - uses: oven-sh/setup-bun@v1
+
+      # run any `bun` or `bunx` command
+      - run: bun install
+      - run: bun run start

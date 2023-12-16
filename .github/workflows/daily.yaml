@@ -1,12 +1,12 @@
-name: Make Site Data on a Schedule
+name: Daily Operations
 
 on:
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   my-job:
-    name: pokebook-data
+    name: reset-data
     runs-on: ubuntu-latest
     steps:
       # ...
@@ -15,4 +15,5 @@ jobs:
 
       # run any `bun` or `bunx` command
       - run: bun install
+      - run: bun run reset
       - run: bun run start
