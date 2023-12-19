@@ -1,6 +1,7 @@
 import { Pokemon, PrismaClient } from "@prisma/client";
 
 import { RemoveStaleUsers } from "./stale-users";
+import { BotData } from "./bots";
 
 const prisma = new PrismaClient();
 
@@ -22,3 +23,5 @@ if (date === 1) {
 }
 
 RemoveStaleUsers(prisma);
+
+BotData(prisma);
