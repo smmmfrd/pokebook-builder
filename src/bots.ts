@@ -18,8 +18,8 @@ export async function BotData(prisma: PrismaClient) {
 
   const botPosts = randomPosts(randBot, 8);
 
-  // await prisma.post.createMany({ data: botPosts });
-  console.log(botPosts);
+  await prisma.post.createMany({ data: botPosts });
+  // console.log(botPosts);
 
   // Need to query the database with the new bot posts included as to get their id's
   const newPosts = await prisma.post.findMany({
@@ -33,8 +33,8 @@ export async function BotData(prisma: PrismaClient) {
 
   const likes = botLikes(randBot, botData.length, newPosts);
 
-  // await prisma.like.createMany({ data: likes });
-  console.log(likes);
+  await prisma.like.createMany({ data: likes });
+  // console.log(likes);
 
   console.log(`${botData.length} Bots`);
 }
