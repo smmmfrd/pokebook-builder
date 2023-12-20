@@ -1,4 +1,4 @@
-name: Make Site Data on a Schedule
+name: "Hourly" Bot Data
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     - cron: "0 16 * * *"
 
 jobs:
-  my-job:
+  bot-data:
     runs-on: ubuntu-latest
     steps:
       # ...
@@ -17,4 +17,5 @@ jobs:
       # run any `bun` or `bunx` command
       - run: bun install
       - run: bun run start
-        env: ${{ secrets.DATABASE_URL }}
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
