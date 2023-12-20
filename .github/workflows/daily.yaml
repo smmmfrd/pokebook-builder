@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  my-job:
+  daily-reset:
     name: reset-data
     runs-on: ubuntu-latest
     steps:
@@ -17,4 +17,5 @@ jobs:
       - run: bun install
       - run: bun run reset
       - run: bun run start
-        env: ${{ secrets.DATABASE_URL }}
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
