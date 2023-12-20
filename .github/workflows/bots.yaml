@@ -7,7 +7,6 @@ on:
 
 jobs:
   my-job:
-    name: bot-data
     runs-on: ubuntu-latest
     steps:
       # ...
@@ -17,3 +16,4 @@ jobs:
       # run any `bun` or `bunx` command
       - run: bun install
       - run: bun run start
+        env: ${{ secrets.DATABASE_URL }}

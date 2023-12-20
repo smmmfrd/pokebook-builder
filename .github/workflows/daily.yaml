@@ -17,3 +17,4 @@ jobs:
       - run: bun install
       - run: bun run reset
       - run: bun run start
+        env: ${{ secrets.DATABASE_URL }}
