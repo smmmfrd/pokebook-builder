@@ -1,6 +1,7 @@
 name: Make Site Data on a Schedule
 
 on:
+  push:
   schedule:
     - cron: "0 8 * * *"
     - cron: "0 16 * * *"
