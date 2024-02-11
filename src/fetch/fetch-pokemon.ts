@@ -98,13 +98,8 @@ function buildPokemon(pokeData: PokeData, speciesData: FlavorTextData) {
     console.error(err);
   } finally {
     bar.stop();
-    writeFile("base.json", JSON.stringify(pokemonData), "utf-8", (err) => {
-      if (err) {
-        console.error("Error:", err);
-      } else {
-        console.log("Created:", pokemonData.length, "pokemon.");
-      }
-    });
+
+    await Bun.write("./data/base.json", JSON.stringify(pokemonData));
 
     const bots = pokemonData.filter((poke) => poke.bot);
 
@@ -115,5 +110,7 @@ function buildPokemon(pokeData: PokeData, speciesData: FlavorTextData) {
         console.log("Created:", bots.length, "bots.");
       }
     });
+
+    await Bun.write("./data/bots.json", JSON.stringify(bots));
   }
 })();

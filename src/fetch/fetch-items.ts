@@ -180,13 +180,7 @@ async function buildItems(data: { [key: string]: PokeFetchResult[] }) {
 
   const itemData = await buildItems(baseItemData);
 
-  writeFile("items.json", JSON.stringify(itemData), "utf-8", (err) => {
-    if (err) {
-      console.log("Error in writing item data to file", err);
-    } else {
-      console.log("Finished writing item data to file");
-    }
-  });
+  await Bun.write("./data/items.json", JSON.stringify(itemData));
 
   bar.stop();
 })();
