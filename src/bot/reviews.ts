@@ -1,10 +1,14 @@
 import { Item, Pokemon } from "@prisma/client";
+import { ReviewData } from "../types";
+import { randomPostContent } from "./utils";
 
 type ItemCategoryIds = {
   [key: string]: number[];
 };
 
-export async function randomReviews(randBot: () => Pokemon) {
+export async function randomReviews(
+  randBot: () => Pokemon
+): Promise<ReviewData[]> {
   const itemFile = Bun.file("./data/items.json");
 
   // Build a dictionary of Item Category to List of Ids of items within that category.
@@ -28,11 +32,23 @@ export async function randomReviews(randBot: () => Pokemon) {
     {} as ItemCategoryIds
   );
 
-  console.log(itemData);
+  const randItem = (category: string) => {
+    const randIndex = Math.round(Math.random() * itemData[category].length);
+    return itemData[category][randIndex];
+  };
 
-  return Object.keys(itemData).map((_, i) => {
+  const categories = Object.keys(itemData);
+
+  return categories.map((_, index) => {
     const reviewer = randBot();
+    const itemId = randItem(categories[index]);
 
-    console.log(reviewer.name);
-  });
+    console.log(reviewer.name, itemId);
+    return {
+      content: randomPostContent(reviewer.name),
+      positive: Math.random() > 0.5,
+      itemId,
+      posterId: reviewer.id,
+    };
+  }) as ReviewData[];
 }
