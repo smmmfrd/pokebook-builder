@@ -15,3 +15,10 @@ export type LikablePost = {
     creatorId: number;
   }[];
 };
+
+export type ReviewData = {
+  content: string;
+  positive: boolean;
+  itemId: number;
+  posterId: number;
+};
