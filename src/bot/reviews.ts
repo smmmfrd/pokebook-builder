@@ -43,7 +43,6 @@ export async function randomReviews(
     const reviewer = randBot();
     const itemId = randItem(categories[index]);
 
-    console.log(reviewer.name, itemId);
     return {
       content: randomPostContent(reviewer.name),
       positive: Math.random() > 0.5,

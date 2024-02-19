@@ -9,7 +9,7 @@ export async function BotData(prisma: PrismaClient) {
   const bot = Bun.file("data/bots.json");
   const botText = await bot.text();
   const botData = (await JSON.parse(botText)) as Pokemon[];
-  console.log(`${botData.length} Bots`);
+  // console.log(`${botData.length} Bots`);
 
   const timeSinceLast = moment().subtract(8, "hours");
 
@@ -18,27 +18,27 @@ export async function BotData(prisma: PrismaClient) {
     return botData.splice(Math.floor(Math.random() * botData.length), 1)[0];
   };
 
-  // const botPosts = randomPosts(randBot, 8, timeSinceLast);
+  const botPosts = randomPosts(randBot, 8, timeSinceLast);
 
-  // await prisma.post.createMany({ data: botPosts });
-  // // console.log(botPosts);
+  await prisma.post.createMany({ data: botPosts });
+  // console.log(botPosts);
 
-  // // Need to query the database with the new bot posts included as to get their id's
-  // const newPosts = await prisma.post.findMany({
-  //   where: { createdAt: { gt: timeSinceLast.toDate() } },
-  //   orderBy: { createdAt: "desc" },
-  //   select: {
-  //     id: true,
-  //     likes: { select: { creatorId: true } },
-  //   },
-  // });
+  // Need to query the database with the new bot posts included as to get their id's
+  const newPosts = await prisma.post.findMany({
+    where: { createdAt: { gt: timeSinceLast.toDate() } },
+    orderBy: { createdAt: "desc" },
+    select: {
+      id: true,
+      likes: { select: { creatorId: true } },
+    },
+  });
 
-  // const likes = botLikes(randBot, botData.length, newPosts);
+  const likes = botLikes(randBot, botData.length, newPosts);
 
-  // await prisma.like.createMany({ data: likes });
+  await prisma.like.createMany({ data: likes });
 
   const reviews = await randomReviews(randBot);
   await prisma.review.createMany({ data: reviews });
 
-  console.log(`${botData.length} Bots`);
+  // console.log(`${botData.length} Bots`);
 }
