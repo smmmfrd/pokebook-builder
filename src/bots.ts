@@ -33,12 +33,14 @@ export async function BotData(prisma: PrismaClient) {
     },
   });
 
+  const reviews = await randomReviews(randBot);
+  await prisma.review.createMany({ data: reviews });
+
+  // !!! - WARNING - !!!
+  // Must be last function as it removes all bots from the list.
   const likes = botLikes(randBot, botData.length, newPosts);
 
   await prisma.like.createMany({ data: likes });
-
-  const reviews = await randomReviews(randBot);
-  await prisma.review.createMany({ data: reviews });
 
   // console.log(`${botData.length} Bots`);
 }
