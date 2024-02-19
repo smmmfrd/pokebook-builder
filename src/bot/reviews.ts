@@ -4,10 +4,7 @@ type ItemCategoryIds = {
   [key: string]: number[];
 };
 
-export async function randomReviews(
-  randBot: () => Pokemon,
-  reviewNumber: number
-) {
+export async function randomReviews(randBot: () => Pokemon) {
   const itemFile = Bun.file("./data/items.json");
 
   // Build a dictionary of Item Category to List of Ids of items within that category.
@@ -33,7 +30,7 @@ export async function randomReviews(
 
   console.log(itemData);
 
-  return Array.from({ length: reviewNumber }, (_, i) => {
+  return Object.keys(itemData).map((_, i) => {
     const reviewer = randBot();
 
     console.log(reviewer.name);
