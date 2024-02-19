@@ -38,6 +38,7 @@ export async function BotData(prisma: PrismaClient) {
   // await prisma.like.createMany({ data: likes });
 
   const reviews = await randomReviews(randBot);
+  await prisma.review.createMany({ data: reviews });
 
   console.log(`${botData.length} Bots`);
 }
