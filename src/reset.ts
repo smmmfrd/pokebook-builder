@@ -24,4 +24,4 @@ if (date === 1) {
 
 RemoveStaleUsers(prisma);
 
-BotData(prisma);
+await BotData(prisma);

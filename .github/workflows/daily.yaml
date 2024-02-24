@@ -18,6 +18,3 @@ jobs:
       - run: bun run reset
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      - run: bun run start
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
