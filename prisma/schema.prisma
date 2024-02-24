@@ -19,7 +19,6 @@ model Pokemon {
   user                   User?
   posts                  Post[]
   comments               Comment[]
-  reviews                Review[]
   likes                  Like[]
   followers              Pokemon[]       @relation("Followers")
   follows                Pokemon[]       @relation("Followers")
@@ -38,8 +37,14 @@ model Post {
   comments  Comment[]
   likes     Like[]
 
+  // Review code, all optional
+  positive Boolean?
+  itemId   Int?
+  item     Item?    @relation(fields: [itemId], references: [id], onDelete: Cascade)
+
   @@unique([createdAt, id])
   @@index([posterId])
+  @@index([itemId])
 }
 
 model Comment {
@@ -79,25 +84,12 @@ model FriendRequest {
 }
 
 model Item {
-  id       Int      @id
+  id       Int           @id
   name     String
-  effect   String   @db.Text
-  sprite   String   @db.Text
-  itemType String
-  reviews  Review[]
-}
-
-model Review {
-  id       String  @id @default(uuid())
-  content  String  @db.Text
-  positive Boolean
-  itemId   Int
-  posterId Int
-  item     Item    @relation(fields: [itemId], references: [id], onDelete: Cascade)
-  poster   Pokemon @relation(fields: [posterId], references: [id], onDelete: Cascade)
-
-  @@index([itemId])
-  @@index([posterId])
+  effect   String        @db.Text
+  sprite   String        @db.Text
+  itemType Item_itemType
+  reviews  Post[]
 }
 
 model User {
@@ -166,4 +158,18 @@ model Friends {
   @@unique([A, B], map: "_Friends_AB_unique")
   @@index([B], map: "_Friends_B_index")
   @@map("_Friends")
+}
+
+enum Item_itemType {
+  Berries
+  HeldItems
+  Vitamins
+  SpecialBalls
+  Healing
+  StatusCures
+  Training
+  StandardBalls
+  BadHeldItems
+  Revival
+  Choice
 }
