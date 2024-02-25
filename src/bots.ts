@@ -20,7 +20,9 @@ export async function BotData(prisma: PrismaClient) {
 
   const botPosts = randomPosts(randBot, 8, timeSinceLast);
 
-  await prisma.post.createMany({ data: botPosts });
+  const reviews = await randomReviews(randBot);
+
+  await prisma.post.createMany({ data: [...botPosts, ...reviews] });
   // console.log(botPosts);
 
   // Need to query the database with the new bot posts included as to get their id's
@@ -32,9 +34,6 @@ export async function BotData(prisma: PrismaClient) {
       likes: { select: { creatorId: true } },
     },
   });
-
-  const reviews = await randomReviews(randBot);
-  await prisma.post.createMany({ data: reviews });
 
   // !!! - WARNING - !!!
   // Must be last function as it removes all bots from the list.

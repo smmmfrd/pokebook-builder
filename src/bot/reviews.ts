@@ -1,5 +1,5 @@
 import { Item, Pokemon } from "@prisma/client";
-import { ReviewData } from "../types";
+import { PostData } from "../types";
 import { randomPostContent } from "./utils";
 
 type ItemCategoryIds = {
@@ -8,7 +8,7 @@ type ItemCategoryIds = {
 
 export async function randomReviews(
   randBot: () => Pokemon
-): Promise<ReviewData[]> {
+): Promise<PostData[]> {
   const itemFile = Bun.file("./data/items.json");
 
   // Build a dictionary of Item Category to List of Ids of items within that category.
@@ -49,5 +49,5 @@ export async function randomReviews(
       itemId,
       posterId: reviewer.id,
     };
-  }) as ReviewData[];
+  }) as PostData[];
 }

@@ -2,6 +2,10 @@ export type PostData = {
   content: string;
   createdAt: Date;
   posterId: number;
+
+  // Optional Review Keys
+  positive?: boolean;
+  itemId?: number;
 };
 
 export type Like = {
@@ -14,11 +18,4 @@ export type LikablePost = {
   likes: {
     creatorId: number;
   }[];
-};
-
-export type ReviewData = {
-  content: string;
-  positive: boolean;
-  itemId: number;
-  posterId: number;
 };
