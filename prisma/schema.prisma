@@ -33,14 +33,12 @@ model Post {
   content   String    @db.Text
   createdAt DateTime  @default(now())
   posterId  Int
+  itemId    Int       @default(-1)
+  positive  Boolean   @default(false)
   poster    Pokemon   @relation(fields: [posterId], references: [id], onDelete: Cascade)
   comments  Comment[]
   likes     Like[]
-
-  // Review code, all optional
-  positive Boolean?
-  itemId   Int?
-  item     Item?    @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  item      Item?     @relation(fields: [itemId], references: [id], onDelete: Cascade)
 
   @@unique([createdAt, id])
   @@index([posterId])
