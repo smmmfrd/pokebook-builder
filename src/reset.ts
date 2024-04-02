@@ -1,4 +1,4 @@
-import { Pokemon, PrismaClient } from "@prisma/client";
+import { Item, Pokemon, PrismaClient } from "@prisma/client";
 
 import { RemoveStaleUsers } from "./stale-users";
 import { BotData } from "./bots";
@@ -10,7 +10,7 @@ const date = new Date().getDate();
 
 if (date === 1) {
   // It's the first of the month, time to reset
-  // All data is linked to pokemon, so deleting them removes all data. (except for items)
+  // All data is linked to pokemon and items, so deleting them removes all data.
   await prisma.pokemon.deleteMany({});
 
   const pokemonJSON = Bun.file("data/pokemon.json");
@@ -20,6 +20,17 @@ if (date === 1) {
   await prisma.pokemon.createMany({ data: pokemonData });
 
   console.log(`${pokemonData.length} Pokemon Created.`);
+
+  // Items
+  await prisma.item.deleteMany({});
+
+  const itemJSON = Bun.file("data/items.json");
+  const itemText = await itemJSON.text();
+  const itemData = (await JSON.parse(itemText)) as Item[];
+
+  await prisma.item.createMany({ data: itemData });
+
+  console.log(`${itemData.length} Items Created.`);
 }
 
 RemoveStaleUsers(prisma);
