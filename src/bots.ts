@@ -20,7 +20,7 @@ export async function BotData(prisma: PrismaClient) {
 
   const botPosts = randomPosts(randBot, 8, timeSinceLast);
 
-  const reviews = await randomReviews(randBot);
+  const reviews = await randomReviews(randBot, timeSinceLast);
 
   await prisma.post.createMany({ data: [...botPosts, ...reviews] });
   // console.log(botPosts);

@@ -1,13 +1,15 @@
 import { Item, Pokemon } from "@prisma/client";
 import { PostData } from "../types";
 import { randomPostContent } from "./utils";
+import { type Moment } from "moment";
 
 type ItemCategoryIds = {
   [key: string]: number[];
 };
 
 export async function randomReviews(
-  randBot: () => Pokemon
+  randBot: () => Pokemon,
+  firstPostTime: Moment
 ): Promise<PostData[]> {
   const itemFile = Bun.file("./data/items.json");
 
@@ -48,6 +50,7 @@ export async function randomReviews(
       positive: Math.random() > 0.5,
       itemId,
       posterId: reviewer.id,
+      createdAt: firstPostTime.subtract(7 - index, "hours").toDate(),
     };
   }) as PostData[];
 }
