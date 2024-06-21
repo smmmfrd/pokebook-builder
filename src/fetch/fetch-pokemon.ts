@@ -103,13 +103,13 @@ function buildPokemon(pokeData: PokeData, speciesData: FlavorTextData) {
 
     const bots = pokemonData.filter((poke) => poke.bot);
 
-    writeFile("bots.json", JSON.stringify(bots), "utf-8", (err) => {
-      if (err) {
-        console.error("Error:", err);
-      } else {
-        console.log("Created:", bots.length, "bots.");
-      }
-    });
+    // writeFile("bots.json", JSON.stringify(bots), "utf-8", (err) => {
+    //   if (err) {
+    //     console.error("Error:", err);
+    //   } else {
+    //     console.log("Created:", bots.length, "bots.");
+    //   }
+    // });
 
     await Bun.write("./data/bots.json", JSON.stringify(bots));
   }
