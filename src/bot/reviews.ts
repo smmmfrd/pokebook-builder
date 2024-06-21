@@ -35,7 +35,9 @@ export async function randomReviews(
   );
 
   const randItem = (category: string) => {
-    const randIndex = Math.round(Math.random() * itemData[category].length);
+    const randIndex = Math.floor(Math.random() * itemData[category].length);
+    console.log(itemData[category][randIndex]);
+
     return itemData[category][randIndex];
   };
 
