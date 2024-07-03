@@ -1,12 +1,10 @@
 import { Pokemon } from "@prisma/client";
 import { PostData } from "../types";
-import { Moment } from "moment";
 import { randomPostContent } from "./utils";
 
 export function randomPosts(
   randBot: () => Pokemon,
-  postNumber: number,
-  firstPostTime: Moment
+  postNumber: number
 ): PostData[] {
   return Array.from({ length: postNumber }, (_, i) => {
     const poke = randBot();
@@ -15,7 +13,6 @@ export function randomPosts(
     return {
       posterId: poke.id,
       content,
-      createdAt: firstPostTime.subtract(7 - i, "hours").toDate(),
     };
   });
 }

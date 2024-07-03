@@ -11,23 +11,39 @@ export async function BotData(prisma: PrismaClient) {
   const botData = (await JSON.parse(botText)) as Pokemon[];
   // console.log(`${botData.length} Bots`);
 
-  const timeSinceLast = moment().subtract(8, "hours");
-
   // Method for sub-processes to get a random bot pokemon and remove it from the array, preventing that process and subsequent ones from using it again.
   const randBot = (): Pokemon => {
     return botData.splice(Math.floor(Math.random() * botData.length), 1)[0];
   };
 
-  const botPosts = randomPosts(randBot, 8, timeSinceLast);
+  const posts = randomPosts(randBot, 8);
 
-  const reviews = await randomReviews(randBot, timeSinceLast);
+  const reviews = await randomReviews(randBot);
 
-  await prisma.post.createMany({ data: [...botPosts, ...reviews] });
+  const lastTime = moment().subtract(8, "hours");
+  const minutesSinceLast = 8 * 60;
+  const postPercentage = 1 / (posts.length + reviews.length);
+  const minutesBetweenPosts = minutesSinceLast * postPercentage;
+  console.log(posts.length + reviews.length, minutesBetweenPosts);
+
+  // Shuffle all created posts
+  const botPosts = [...posts, ...reviews]
+    .map((post) => ({ post, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ post }, index) => ({
+      ...post,
+      createdAt: moment(lastTime.toDate())
+        .add(index * minutesBetweenPosts, "minutes")
+        .toDate(),
+    }));
+
+  // Push them to the db
+  await prisma.post.createMany({ data: botPosts });
   // console.log(botPosts);
 
-  // Need to query the database with the new bot posts included as to get their id's
+  // Need to query the database with the new bot posts included as to get their id's, as well as getting any user posts created within the last eight hours.
   const newPosts = await prisma.post.findMany({
-    where: { createdAt: { gt: timeSinceLast.toDate() } },
+    where: { createdAt: { gt: lastTime.toDate() } },
     orderBy: { createdAt: "desc" },
     select: {
       id: true,
@@ -35,8 +51,9 @@ export async function BotData(prisma: PrismaClient) {
     },
   });
 
+  // Pushing all new posts to be liked by the remaining bots.
   // !!! - WARNING - !!!
-  // Must be last function as it removes all bots from the list.
+  // Must be last function as it removes all remaining bots from the list.
   const likes = botLikes(randBot, botData.length, newPosts);
 
   await prisma.like.createMany({ data: likes });

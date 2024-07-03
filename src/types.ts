@@ -1,6 +1,6 @@
 export type PostData = {
   content: string;
-  createdAt: Date;
+  // createdAt: Date;
   posterId: number;
 
   // Optional Review Keys
